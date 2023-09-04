@@ -1,0 +1,124 @@
+.header-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em;
+    color: white; 
+    
+}
+.header-container h3{
+    color: black;
+    font-weight: 800;
+    font-size: 1.5em;
+    background-color: white;
+    padding: 0.4em;
+    border-radius: 4em;
+}
+.header-container a{
+    text-decoration: none;
+    color: white;
+}
+.header-container .menu-container{
+    display: flex;
+    width: 13%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+}
+a{
+    cursor: pointer;
+}
+.menu-container .button{
+    padding: 0.5em ;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+}
+.main-container{
+    width: 100%;
+    color: white;
+    margin-left: 3em;
+    margin-top: 3em;
+    
+}
+.main-container h3{
+    margin-top: 1.2em;
+}
+.main-container span{
+    color: rgb(52, 52, 204);
+}
+
+.contato-container h3{
+    font-size: 2em;
+    color: white;
+    margin-bottom: 1em;
+}
+.contato-container p{
+    margin-top: 0.5em;
+}
+img{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 2em;
+    margin-top: 3em;
+    cursor: pointer;
+    
+}
+img:hover{
+    background-color: white;
+    transition: 0.7s;
+}
+
+#sobre{
+    width: 80%;
+   color: white;
+   margin-top: 6em;
+   margin-left: 3em;
+   margin-bottom: 10em;
+}
+#sobre h3{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+#sobre p{
+    font-size: 1.3em;
+}
+#sobre button{
+    color: white;
+    margin-top: 3em;
+    padding: 0.5em ;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 2em;
+    cursor: pointer;
+}
+#sobre button:hover{
+    
+    background-color: white;
+    color: black;
+    transition: 0.7s;   
+}
+.irParaSobre{
+    
+    scroll-behavior: smooth;
+   
+}
+
+@media(max-width : 820px){
+    .header-container{
+        width: 80%
+    };
+    #sobre {
+        width: 80%;
+        color: black;
+    }
+    .main-container{
+        width: 90%;
+    }
+}
