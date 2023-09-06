@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/' element={<Home/>}/>
+          <Route path='/portfolio' element={<Home/>}/>
           <Route path='/projetos' element={<Projetos/>}/>
         </Routes>
       </Router>
