@@ -11,7 +11,7 @@ export default function Home() {
           <h3>Y</h3>
           <nav className='menu-container'>
               <a href='#sobre' className='irParaSobre'>Sobre</a>
-              <a className='button' href='/projetos'>Projetos</a>
+              <a className='button' href='portfolio/projetos'>Projetos</a>
           </nav>
       </div>
       <div className='main-container'>
