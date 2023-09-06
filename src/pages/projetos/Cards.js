@@ -25,7 +25,7 @@ export default function Cards() {
           {cards.map((card)=>(
             <div className='card'>
 
-             <a href='#'>{card.titulo}</a>
+             <a href='https://www.youtube.com/'>{card.titulo}</a>
              <img alt="imagem do projeto"className='projeto-img'src={card.imagem}></img> 
             </div>
           ))}
