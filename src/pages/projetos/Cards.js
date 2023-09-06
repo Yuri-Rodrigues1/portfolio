@@ -25,8 +25,8 @@ export default function Cards() {
           {cards.map((card)=>(
             <div className='card'>
 
-             <a>{card.titulo}</a>
-             <img className='projeto-img'src={card.imagem}></img> 
+             <a href='#'>{card.titulo}</a>
+             <img alt="imagem do projeto"className='projeto-img'src={card.imagem}></img> 
             </div>
           ))}
 

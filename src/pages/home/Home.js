@@ -22,8 +22,8 @@ export default function Home() {
             <h3>Contato</h3>
             <p>+55 31 9 9706-4091</p>
             <p>wyurirodrigues@gmail.com</p>
-            <a href='https://www.linkedin.com/in/yuri-rodrigues-766435252/' target='_blank'><img src={linkedinSVG} alt="LinkedIn Logo" /></a> 
-            <a href='https://www.github.com/yuri-Rodrigues1/' target='_blank'><img src={githubSVG} alt="github Logo" /></a>
+            <a href='https://www.linkedin.com/in/yuri-rodrigues-766435252/' target='_blank' rel="noreferrer"><img src={linkedinSVG} alt="LinkedIn Logo" /></a> 
+            <a href='https://www.github.com/yuri-Rodrigues1/' target='_blank' rel="noreferrer"><img src={githubSVG} alt="github Logo" /></a>
           </div>
       </div>
       <div id='sobre' className='sobre'>
