@@ -10,7 +10,7 @@ export default function Projetos() {
         <div className='header-container-projeto'>
     
             <nav>
-                <a href='/portfolio'>Home</a>
+                <a href='/'>Home</a>
             </nav>
         </div>
         <div className='main-projeto'>

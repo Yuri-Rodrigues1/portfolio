@@ -7,9 +7,9 @@ import Projetos from './pages/projetos/Projetos';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/portfolio'>
         <Routes>
-          <Route path='/portfolio' element={<Home/>}/>
+          <Route path='/' element={<Home/>}/>
           <Route path='/projetos' element={<Projetos/>}/>
         </Routes>
       </Router>
