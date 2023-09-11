@@ -111,14 +111,17 @@ img:hover{
 
 @media(max-width : 820px){
     .header-container{
-        width: 65%;
+        width: 55%;
         padding: 1em;
         padding-top: 3em
         
     };
+    .sobre{
+        margin-left: 1em;
+    }
     #sobre {
         width: 80%;
-        color: black;
+        margin-left: 1em;
     }
     .main-container{
         width: 80%;
