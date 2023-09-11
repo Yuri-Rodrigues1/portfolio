@@ -22,6 +22,7 @@
     transition: 0.7s;
 }
 .main-projeto{
+    padding-top: 5em;
     color: white;
     display: flex;
     flex-direction: column;

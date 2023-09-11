@@ -10,8 +10,8 @@ export default function Home() {
       <div className='header-container'>
           <h3>Y</h3>
           <nav className='menu-container'>
-              <a href='#sobre' className='irParaSobre'>Sobre</a>
-              <a className='button' href='portfolio/projetos'>Projetos</a>
+              <a href='#sobre' className='button'>Sobre</a>
+              <a href='#projetos'className='button'>Projetos</a>
           </nav>
       </div>
       <div className='main-container'>

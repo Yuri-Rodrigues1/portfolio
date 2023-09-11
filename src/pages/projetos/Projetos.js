@@ -7,13 +7,8 @@ import Cards from './Cards'
 export default function Projetos() {
   return (
     <div>
-        <div className='header-container-projeto'>
-    
-            <nav>
-                <a href='/portfolio'>Home</a>
-            </nav>
-        </div>
-        <div className='main-projeto'>
+
+        <div id='projetos'className='main-projeto'>
           <Cards/>
         </div>
     </div>

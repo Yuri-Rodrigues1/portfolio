@@ -7,4 +7,5 @@
 body{
   background-image: url(https://wallpaperaccess.com/full/210888.jpg);
   background-size: cover;
+  overflow-x: hidden;
 }
