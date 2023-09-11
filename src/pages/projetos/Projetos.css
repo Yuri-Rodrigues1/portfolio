@@ -71,9 +71,7 @@
 }
 
 @media (max-width: 820px){
-    .cards{
-        width: 89%;
-    }
+
     .header-container-projeto{
         font-size: 1.5em;
         
