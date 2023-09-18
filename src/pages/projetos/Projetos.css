@@ -36,10 +36,8 @@
 .cards{
     flex-wrap: wrap;
     display: flex;
-    margin: 2em;
     padding-bottom: 2em;  
     justify-content: space-around;
-    border-radius: 2em;
     background: linear-gradient(#121212, #212b46);
 }
 .main a{ 
@@ -60,6 +58,7 @@
     border: 1px solid white;
     background-color: white;
     border-radius: 2em;
+    text-decoration: none;
 }
 .card a:hover{
     background-color: transparent;
@@ -67,6 +66,7 @@
     transition: 0.7s;
 }
 .projeto-img{
+    width: 35em;
     margin-top: 1em;
 }
 
