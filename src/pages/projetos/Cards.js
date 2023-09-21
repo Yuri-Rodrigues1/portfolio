@@ -1,5 +1,6 @@
 import React from 'react'
 import kanban from "./img/kanban.PNG"
+import tradutor from "./img/tradutor.PNG"
 
 export default function Cards() {
     const cards = [{
@@ -8,9 +9,9 @@ export default function Cards() {
         src: "https://z6scrf.csb.app/"
     },
     {
-        titulo: 'Projeto 2',
-        imagem: kanban,
-        src: "https://z6scrf.csb.app/"
+        titulo: 'Tradutor',
+        imagem: tradutor,
+        src: "https://x9mt8x.csb.app/"
     },
     {
       titulo: 'Projeto 1',
