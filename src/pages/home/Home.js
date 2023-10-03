@@ -33,7 +33,7 @@ export default function Home() {
             de projetos envolvendo front-end e back-end.<br></br> Possuo conhecimentos em html, css,
             Javascript, Reactjs, banco de dados e git.
           </p>
-          <button>Acessar curriculo</button>
+          <button><a class='curriculo-btn'target='_blank'href='https://drive.google.com/file/d/1tQUbjrx2YK_660UAMT501PxjvidJUlkt/view?usp=drive_link'>Acessar curriculo</a></button>
       </div>
     </div>
   )

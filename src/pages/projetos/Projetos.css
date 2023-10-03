@@ -57,7 +57,7 @@
     justify-content: center;
     border: 1px solid white;
     background-color: white;
-    border-radius: 2em;
+    border-radius: 0.2em;
     text-decoration: none;
 }
 .card a:hover{
